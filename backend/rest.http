@@ -1,0 +1,22 @@
+GET http://localhost:8000/api/tasks
+
+GET http://localhost:8000/api/tasks/64a3ef8772f9d27655ce807a
+
+POST http://localhost:8000/api/tasks
+content-type: application/json
+
+{
+    "title": "some title22",
+    "description": "some description"
+}
+
+PUT http://localhost:8000/api/tasks/64a3ef8772f9d27655ce807b
+content-type: application/json
+
+{
+    "description": "some description update"
+}
+
+DELETE http://localhost:8000/api/tasks/64a3ef8772f9d27655ce807c
+
+
